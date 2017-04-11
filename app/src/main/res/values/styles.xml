@@ -1,0 +1,29 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+
+        <item name="android:actionBarStyle">@style/myActionbarStyle</item>
+        <item name="actionBarStyle">@style/myActionbarStyle</item>
+        <item name="android:actionBarTabStyle">@style/MyActionbarTabStyle</item>
+        <item name="actionBarTabStyle">@style/MyActionbarTabStyle</item>
+        <item name="android:actionBarDivider">@null</item>
+        <item name="actionBarDivider">@null</item>
+    </style>
+
+    <style name="MyActionbarTabBars" parent="@style/Widget.AppCompat.ActionBar.TabBar">
+        <item name="android:showDividers">none</item>
+        <item name="showDividers">none</item>
+    </style>
+
+    <style name="myActionbarStyle" parent="@style/Widget.AppCompat.ActionBar">
+        <item name="android:background">@color/action_bar_bg</item>
+        <item name="background">@color/action_bar_bg</item>
+    </style>
+    <style name="MyActionbarTabStyle" parent="@style/Widget.AppCompat.ActionBar.TabView">
+        <item name="android:background">@color/action_bar_bg</item>
+        <item name="background">@color/action_bar_bg</item>
+    </style>
+    <color name="action_bar_bg">#1199ef</color>
+</resources>
